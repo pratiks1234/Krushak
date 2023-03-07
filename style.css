@@ -1,0 +1,354 @@
+body{
+    /* background-color:#caf0f8; */
+    background-color: white;
+    margin:0px;
+}
+.bg{
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+    height: 717px;
+    opacity: 0.9;
+}
+.header{
+    position: relative;
+    display: flex;
+    margin-top:0px;
+}
+.logo{
+    position: relative;
+    padding: 10px;
+}
+img{
+    width: 150px;
+    height: 70px;
+}
+.nav{
+    position: relative;
+    display: flex;
+}
+ul.navbar{
+    position: relative;
+    display: flex;
+    font-family: Kanit,sans-serif;
+    list-style: none;
+    gap: 120px;
+    color: #1e375a;
+    top: 32px;
+    left: 90px;
+    
+}
+.lbtn{
+    position: relative;
+    display: flex;
+    font-family: Kanit,sans-serif;
+    justify-content: space-between;
+    color: black;
+    left: 30px;
+    background-color: white;
+    width: 90px;
+    border: white 0px solid;
+    border-radius: 10px;
+    padding: 20px;
+    bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+a{
+    color: #1e375a;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Kanit,sans-serif;
+    font-weight: 600;
+}
+a:hover{
+    color: blueviolet;
+}
+.lbtn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.search{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.info{
+    position: relative;
+    margin-top: 230px;
+}
+p.a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: auto;
+    color: aliceblue;
+    animation-name: typing;
+    animation-duration: 4s;
+    transition: all .5s ease-in;
+    animation-fill-mode: backwards;
+    animation-timing-function: steps(30,end);
+
+}
+
+@keyframes typing {
+    from {width:0%}
+    to {width: 100%}
+    
+}
+p.b{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    color: aliceblue;
+}
+.input{
+    width: 480px;
+    border-radius: 10px;
+    height: 30px;
+    border: solid 2px whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 100%);
+}
+.sbtn{
+    left: 20px;
+    position: relative;
+    display: flex;
+    border: solid 1px black;
+    border-radius: 10px;
+    align-items: center;
+    height: 30px;
+    top: 2px;
+}
+::placeholder{
+    position: relative;
+    left:15px;
+
+}
+.con1{
+    position: relative;
+    display: flex;
+    background-color:whitesmoke;
+    width: 100%;
+    height: 130px;
+    top: 223px;
+    justify-content: center;
+}
+ul.icon{
+    position: relative;
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    align-items: center;
+}
+.con2{
+    position: relative;
+    display: flex;
+    background-color:white;
+    width: 100%;
+    height: 430px;
+    top: 223px;
+}
+.imgcon{
+    position: relative;
+    display: flex;
+    margin: 60px;
+}
+.simg{
+    width: 640px;
+    height: 310px;
+}
+.simginfo{
+    position: relative;
+    margin-top: 50px;
+}
+p.c{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.dcimg{
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    position: relative;
+}
+.con3{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    top: 223px;
+}
+.con4{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 430px;
+    background-color: white;
+    top: 223px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.loginicon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px
+}
+.box{
+    position: relative;
+    border-radius:10px;
+    border: solid 0px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 335px;
+    width: 305px;
+    background-color: white;
+}
+p.e{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-size: 25px;
+}
+p.g{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+p.f{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+p.g{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.logbtn{
+    background-color: aquamarine;
+    color: black;
+    position: relative;
+    border-radius: 5px;
+    border: solid 0px; 
+    width: 85px;
+    height: 35px;
+}
+.footer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 320px;
+    background-color: whitesmoke;
+    top: 223px;
+    justify-content: center;
+    gap: 155px;
+}
+.f1{
+    position: relative;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    width: 219px;
+    height: 240px;
+    top: 80px;
+}
+.f2{
+    position: relative;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    width: 219px;
+    height: 240px;
+    top: 80px;
+}
+.f3{
+    position: relative;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    width: 219px;
+    height: 240px;
+    top: 80px;
+}
+.f4{
+    position: relative;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    width: 219px;
+    height: 240px;
+    top: 80px;
+}
+p.h{
+    position: relative;
+    display: flex;
+    font-size: 15px;
+}
+p.i{
+    position: relative;
+    display: flex;
+    font-size: 15px;
+    bottom: 10px;
+}
+.f5{
+    list-style: none;
+    line-height: 35px;
+    text-decoration: none;
+}
+.logbtnfotter{
+    background-color:aquamarine;
+    color: black;
+    position: relative;
+    border-radius: 5px;
+    border: solid 0px; 
+    width: 135px;
+    height: 35px;
+}
+p.s{
+    position: relative;
+    display: flex;
+    font-size: 18px;
+}
+.end{
+    position: relative;
+    display: flex;
+    background-color:rgb(176, 176, 176);
+    width: 100%;
+    height: 100px;
+    top: 223px;
+    gap: 0px;
+}
+.copy{
+    position: relative;
+    left: 55px;
+    top: 15px;
+}
+.social{
+    position: relative;
+    list-style: none;
+}
+p.en{
+    position: relative;
+    bottom: 12px;
+}
+ul.en1{
+    position: relative;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 16px;
+    top: 15px;
+    left: 1000px;
+}
+.lsocial{
+    position: relative;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}

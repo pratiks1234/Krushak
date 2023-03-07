@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="relative flex-row p-0 bg-red-600 mt-12" style="font-family:'Courier New', Courier, monospace;">
+        <div class="md:hidden">
+            <img src="bar.png" alt="F1" class="w-10">
+        </div> 
+        <div class="flex gap-12 p-0 text-white">
+            <div class="w-48 p-3 cursor-pointer"><a href="https://www.formula1.com/en/latest.html"><img src="f1_logo.svg" alt="F1"></a></div>
+            <div class="hidden md:block">
+                <ul class="flex text-lg  text-white gap-0 justify-start" style="font-family:'Courier New', Courier, monospace;" >
+                  <li class="hover:cursor-pointer hover:bg-black p-5"><a href="#">Latest</a></li>
+                  <li class="hover:cursor-pointer hover:bg-black p-5"><a href="#">Video</a></li>
+                  <li class="hover:cursor-pointer hover:bg-black p-5"><a href="#">Schedule</a></li>
+                  <li class="hover:cursor-pointer hover:bg-black p-5"><a href="#">Standings</a></li>
+                  <li class="hover:cursor-pointer hover:bg-black p-5"><a href="#">Drivers</a></li>
+                  <li class="hover:cursor-pointer hover:bg-black p-5"><a href="#">Teams</a></li>
+                  <li class="hover:cursor-pointer hover:bg-black p-5"><a href="#">Gaming</a></li>
+                  <li class="hover:cursor-pointer hover:bg-black p-5"><a href="#">Live Timing</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hidden " id="hi">       
+           <div class="h-40 bg-black transition hover:duration-700 ease-in-out "></div>
+        </div>
+    </nav>
+    <script>
+        var x=1;
+   const Drivers=()=>
+    {
+       if(x)
+       {
+document.getElementById("hi").className="hover:duration-700 "
+x=0;
+       }
+       else
+       {
+        document.getElementById("hi").className="hidden "
+x=1;
+       }
+    }
+    </script>
+</body>
+</html>
