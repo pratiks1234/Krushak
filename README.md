@@ -1,0 +1,2 @@
+# Krushak
+Agriculuture management system
