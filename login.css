@@ -25,7 +25,7 @@ body{
 }
 span{
     color: black;
-    font-size: small;
+    font-size: medium;
     display: flex;
     justify-content: center;
     padding: 10px 0 10px 0;
