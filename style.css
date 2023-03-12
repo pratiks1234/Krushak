@@ -82,6 +82,7 @@ a:hover{
 p.a{
     position: relative;
     width: 0;
+    margin-left: 10%;
     white-space: nowrap;
     overflow: hidden;
     font-size: 60px;
